@@ -9,9 +9,6 @@
 /* 2. Remove default margin */
 * {
   font-family: "Inter", sans-serif; /* This was not here in this CSS reset but I've decided to add it here cuz why not. */
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 /* 3. Enable keyword animations */
@@ -83,6 +80,42 @@ h6 {
   ---gray: hsl(217, 10%, 84%);
   ---dark-white: hsl(210, 40%, 98%);
   ---medium-blue: hsl(221, 82%, 62%);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(---dark-white);
+}
+.first {
+  border-bottom: 1px solid var(---gray);
+}
+h1, h2 {
+  font-weight: 600;
+}
+h1 {
+  font-size: 2.25rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+a[href="#"] {
+  color: var(---medium-blue);
+  text-decoration: none;
 }
 .author-info {
   font-size: 14px;
