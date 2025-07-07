@@ -80,10 +80,10 @@ h6 {
   ---gray: hsl(217, 10%, 84%);
   ---dark-white: hsl(210, 40%, 98%);
   ---medium-blue: hsl(221, 82%, 62%);
-} 
-header {  
+}
+header {
   text-align: center;
-} 
+}
 main {
   display: flex;
   flex-direction: column;
@@ -103,7 +103,8 @@ div {
 .first {
   border-bottom: 1px solid var(---gray);
 }
-h1, h2 {
+h1,
+h2 {
   font-weight: 600;
 }
 h1 {
@@ -119,7 +120,7 @@ p {
 ol {
   padding-left: 1.25rem;
   margin-left: 0;
-  }
+}
 li {
   margin-bottom: 0.5rem;
 }
@@ -128,7 +129,7 @@ ul {
   flex-direction: column;
   padding-left: 1.25rem;
   margin-left: 0;
-  }
+}
 
 a[href="#"] {
   color: var(---medium-blue);
